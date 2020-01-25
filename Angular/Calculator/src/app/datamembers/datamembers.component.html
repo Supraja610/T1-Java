@@ -1,0 +1,26 @@
+<p>datamembers works!</p>
+
+<title>testing</title>
+<div><h1>name:{{name}}</h1></div>
+<div><h2>age:{{age}}</h2></div>
+<div><h3>email:{{email}}</h3></div>
+<div *ngIf="age>18"><h1>Elgible for voting</h1></div>
+<div [ngSwitch]="switch_expression">
+    
+    <div *ngSwitchCase="match_expression_1">...</div>
+    <div *ngSwitchCase="match_expression_2">...</div>
+    <div *ngSwitchCase="match_expression_3">...</div>
+    
+    <div *ngSwitchDefault>...</div>
+  </div>
+<input type ="button" value="change" (click)="changeval()"/>
+
+
+
+
+
+
+
+
+
+
