@@ -1,0 +1,13 @@
+
+<hr />
+<!-- Menu -->
+<app-menu></app-menu>
+<br>
+<input type="search" placeholder="search here....."  #srch/>
+<input type="button" value="search" (click)="searchCall(srch)"/>
+
+<hr />
+
+<!-- Special container that will hold the active component at runtime-->
+
+<router-outlet></router-outlet>
